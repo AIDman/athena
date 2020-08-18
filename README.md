@@ -63,13 +63,11 @@ pip install tensorflow==2.0.0
 
 ### 3.3) Install *horovod* for multiple-device training [Optional]
 
-For multiple GPU/CPU training
-You have to install the *horovod*, you can find out more information from the [horovod website](https://github.com/horovod/horovod#install).
+For multiple GPU/CPU training, you have to install the *horovod*, you can find out more information from the [horovod website](https://github.com/horovod/horovod#install).
 
 ### 3.4) Install *pydecoder* for WFST decoding [Optional]
 
-For WFST decoding
-You have to install *pydecoder*, installation guide for *pydecoder* can be found [athena-decoder website](https://github.com/athena-team/athena-decoder#installation)
+For WFST decoding, you have to install *pydecoder*, installation guide for *pydecoder* can be found [athena-decoder website](https://github.com/athena-team/athena-decoder#installation)
 
 ### 3.5) Install *athena* package
 
@@ -81,7 +79,7 @@ python setup.py bdist_wheel sdist
 python -m pip install --ignore-installed dist/athena-0.1.0*.whl
 ```
 
-- Once athena is successfully installed , you should do `source tools/env.sh` firstly before doing other things.
+- Once athena is successfully installed, you should do `source tools/env.sh` firstly before doing other things.
 - For installing some other supporting tools, you can check the `tools/install*.sh` to install kenlm, sph2pipe, spm and ... [Optional]
 
 ### 3.6) Test your installation
