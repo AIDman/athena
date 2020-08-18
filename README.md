@@ -51,7 +51,7 @@ python -m venv venv_athena
 source venv_athena/bin/activate
 ```
 
-### 3.2) Install *tensorflow* backend
+### 3.2) Install tensorflow backend
 
 For more information, you can checkout the [tensorflow website](https://github.com/tensorflow/tensorflow).
 
@@ -61,15 +61,15 @@ pip install --upgrade pip
 pip install tensorflow==2.0.0
 ```
 
-### 3.3) Install *horovod* for multiple-device training [Optional]
+### 3.3) Install horovod for multiple-device training [Optional]
 
 For multiple GPU/CPU training, you have to install the *horovod*, you can find out more information from the [horovod website](https://github.com/horovod/horovod#install).
 
-### 3.4) Install *pydecoder* for WFST decoding [Optional]
+### 3.4) Install pydecoder for WFST decoding [Optional]
 
 For WFST decoding, you have to install *pydecoder*, installation guide for *pydecoder* can be found [athena-decoder website](https://github.com/athena-team/athena-decoder#installation)
 
-### 3.5) Install *athena* package
+### 3.5) Install athena package
 
 ```bash
 git clone https://github.com/athena-team/athena.git
